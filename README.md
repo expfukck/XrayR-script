@@ -20,7 +20,7 @@ wget -N https://raw.githubusercontents.com/expfukck/XrayR-script/master/install.
 # Docker 安装
 
 ```
-docker pull misakano7545/xrayr:latest && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host misakano7545/xrayr:latest
+docker pull movemama/xrayr:latest && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host misakano7545/xrayr:latest
 ```
 
 # Docker compose 安装
@@ -32,7 +32,7 @@ curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compo
 chmod +x /usr/local/bin/docker-compose
 ```
 
-2. `git clone https://github.com/Misaka-blog/XrayR-script XrayR-release`
+2. `git clone https://github.com/expfukck/XrayR-script XrayR-release`
 3. `cd XrayR-release`
 4. 编辑config。
 配置文件基本格式如下，Nodes下可以同时添加多个面板，多个节点配置信息，只需添加相同格式的Nodes item即可。
