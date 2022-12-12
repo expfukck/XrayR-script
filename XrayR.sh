@@ -407,7 +407,7 @@ Nodes:
       ApiKey: "$ApiKey"
       NodeID: $NodeID
       NodeType: $NodeType # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
-      Timeout: 30 # Timeout for the api request
+      Timeout: 300 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
       EnableXTLS: false # Enable XTLS for V2ray and Trojan
       SpeedLimit: 0 # Mbps, Local settings will replace remote settings, 0 means disable
